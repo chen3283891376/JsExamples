@@ -53,8 +53,8 @@ class QuickDialog {
             position: fixed;
             transform: translateY(0);
             transform: translateX(0);
-            width: 80%;
-            max-width: 400px;
+            // width: 80%;
+            // max-width: 400px;
             border: none;
             box-shadow: 0 0 10px rgba(0,0,0,0.3);
             border-radius: 5px;
