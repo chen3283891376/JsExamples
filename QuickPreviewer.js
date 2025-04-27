@@ -129,7 +129,7 @@ const get_code = async (id) => {
             .webpy-editor {
                 min-width: min(100vw, 800px);
                 min-height: min(100vh, 800px);
-            }    
+            }
         `);
         const editorEle = document.createElement("div");
         editorEle.className = "webpy-editor";
@@ -146,7 +146,7 @@ const get_code = async (id) => {
         function getOpenButton() {
             const ele = document.createElement("button");
             ele.innerHTML = "打开Preview";
-            ele.style.position = "absolute";
+            ele.style.position = "fixed";
             ele.style.right = "20px";
             ele.style.bottom = "20px";
             ele.style.zIndex = "100";
